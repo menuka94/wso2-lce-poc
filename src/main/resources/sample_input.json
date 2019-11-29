@@ -1,0 +1,31 @@
+{
+  "name": "sample1",
+  "id": "01",
+  "components": [
+    {
+      "type": "http-listener",
+      "id": "http-list-01",
+      "properties": {
+        "method": "get",
+        "path": "http://localhost:8000"
+      }
+    },
+    {
+      "type": "logger",
+      "id": "logger-01",
+      "properties": {
+        "level": "info"
+      }
+    },
+    {
+      "type": "file-writer",
+      "id": "file-write-01",
+      "properties": {
+        "location": "xx",
+        "username": "sachith",
+        "password": "",
+        "filename": "hello.txt"
+      }
+    }
+  ]
+}
